@@ -1,9 +1,10 @@
+#include "lib.h"
+
 #include <iostream>
 
-using namespace std;
-
-int main()
+int main (int, char **)
 {
-    cout << "Hello World!" << endl;
+    std::cout << "Version: " << version() << std::endl;
+
     return 0;
 }
